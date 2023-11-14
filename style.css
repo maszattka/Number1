@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-gray: #ebebeb;
+  --main-grayS: #a8dadc;
+  --main-white: #ffffff;
+  --main-beer: #bdbc9d;
+}
+
+body {
+  background-color: var(--main-gray);
+  min-width: 1280px;
+}
+
+/*--------------------------HEADER-----------------------------------*/
+
+/* ----------nav section----------*/
+
+nav {
+  background-color: var(--main-grayS);
+  height: auto;
+  position: fixed;
+  width: 100%;
+  padding: 0 0.5rem 0 0.5rem;
+  /* box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px; */
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.logo img {
+  height: 85px;
+}
+
+/*  Ezek az elemek az 5. napon várnak rád. Ne foglalkozz velük! 
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 980px) {
+}
+
+@media only screen and (max-width: 650px) {
+}
+
+*/
